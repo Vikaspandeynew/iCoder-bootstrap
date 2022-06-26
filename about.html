@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ar" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+
+    <title>iCoder</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">iCoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Web development</a></li>
+
+                            <li><a class="dropdown-item" href="#">Suppot</a></li>
+                            <li><a class="dropdown-item" href="#">Write for us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">It all started with iCoder's idea. <span class="text-muted">Checkmate.</span></h2>
+              <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      
+            </div>
+          </div>
+          <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">We Started iCoder in 2008. <span class="text-muted">It will blow your mind.</span></h2>
+              <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      
+            </div>
+          </div>
+          <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+              <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+              
+      
+            </div>
+          </div>
+    </div>
+    <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

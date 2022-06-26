@@ -1,0 +1,24 @@
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: white;
+  }
+  .nav-link{
+    color: white;
+  }
+  .navbar-brand{
+    color: white;
+  }
+  .navbar-brand:focus, .navbar-brand:hover {
+    color:green;
+  }
+  .nav-link:focus, .nav-link:hover {
+    color: green;
+  }
+  .carousel-item{
+    height: 92vh;
+    width: 100vw;
+   
+
+  }
+  .row{
+    margin: 10px;
+  }
